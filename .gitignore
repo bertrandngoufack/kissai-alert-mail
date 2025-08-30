@@ -1,0 +1,27 @@
+# Composer
+/vendor/
+composer.lock
+
+# CodeIgniter writable
+/writable/*
+!/writable/.gitkeep
+
+# env files
+/.env
+/.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage / cache
+/coverage/
+/.phpunit.cache/
+/.php-cs-fixer.cache
+

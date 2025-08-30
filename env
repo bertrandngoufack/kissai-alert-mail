@@ -1,0 +1,15 @@
+CI_ENVIRONMENT = development
+
+app.baseURL = 'http://localhost:8080/'
+
+database.default.hostname = 127.0.0.1
+database.default.database = kissai
+database.default.username = root
+database.default.password = secret
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.charset = utf8mb4
+database.default.DBCollat = utf8mb4_general_ci
+
+encryption.key =
+
